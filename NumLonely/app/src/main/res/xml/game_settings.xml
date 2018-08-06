@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:os="http://schemas.android.com/apk/res/com.nrsmagic.sudoku">
+  xmlns:os="http://schemas.android.com/apk/res/com.vc.cheet.game">
     <PreferenceCategory android:title="@string/game_helpers">
         <CheckBoxPreference android:title="@string/highlight_wrong_values" android:key="highlight_wrong_values" android:summary="@string/highlight_wrong_values_summary" android:defaultValue="true" />
         <CheckBoxPreference android:title="@string/highlight_completed_values" android:key="highlight_completed_values" android:summary="@string/highlight_completed_values_summary" android:defaultValue="true" />

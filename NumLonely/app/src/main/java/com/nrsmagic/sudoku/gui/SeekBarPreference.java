@@ -4,9 +4,8 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.os.Parcelable.Creator;
 import android.preference.DialogPreference;
-import android.preference.Preference.BaseSavedState;
+import android.preference.Preference;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,10 +13,10 @@ import android.view.ViewParent;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
-import com.nrsmagic.sudoku.R.styleable;
 
-public class SeekBarPreference
-  extends DialogPreference
+import com.nrsmagic.sudoku.R;
+
+public class SeekBarPreference extends DialogPreference
 {
   private int mMax;
   private int mMin;
